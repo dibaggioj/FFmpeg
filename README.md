@@ -26,6 +26,9 @@ FFmpeg README
 --------------------
 Sample ffserver configuration file:
 
+<pre>
+
+
 # Port on which the server is listening. You must select a different
 # port from your standard HTTP web server if it is running on the same
 # computer.
@@ -401,6 +404,11 @@ ACL allow 192.168.0.0 192.168.255.255
 <Redirect index.html>
 URL http://www.ffmpeg.org/
 </Redirect>
+</first>
+
+
+
+</pre>
 
 4) b) To start server, run:
 --------------------
